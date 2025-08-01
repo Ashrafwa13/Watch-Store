@@ -44,13 +44,16 @@
     position: relative;
     padding: 1rem 2rem;
     font-size: 1rem;
-    color: white;
     background-color: red;
     border: none;
     border-radius: 0.5em;
     overflow: hidden;
     cursor: pointer;
     z-index: 0;
+}
+.left button a{
+        text-decoration: none;
+        color: white;
 }
 .left button:hover {
     color: white;
@@ -242,6 +245,9 @@ section.sec4 div div.img3and4 {
         flex-wrap: wrap;
         align-items: center;
     }
+    .left h1 {
+        font-size: 2.2em;
+    }
     .left p {
         font-size: 1em;
         color: rgb(86, 85, 85);
@@ -266,6 +272,9 @@ section.sec4 div div.img3and4 {
         left: 0;
         opacity: 1;
     }
+    .sec4{
+        padding-top:1em ;
+    }
     section.sec4 div .div1 {
         flex-basis: 78%;
         height: 80%;
@@ -274,13 +283,12 @@ section.sec4 div div.img3and4 {
         flex-basis: 80%;
         height: 80%;
     }
-section.sec4 div {
+    section.sec4 div {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
         flex-wrap: wrap;
-        margin-bottom: 4em;
         gap: 5em;
     }
     section.sec4 div div.img3and4 {
@@ -291,6 +299,7 @@ section.sec4 div {
     justify-content: space-between;
     align-items: center;
     }
+
 }
 @media screen and (min-width: 601px) and (max-width: 619px) {
     .all {
